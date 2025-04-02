@@ -72,7 +72,7 @@ def display_chat():
 
 def main():
     st.title("AI Chat Interface")
-    init_session_state()
+  #  init_session_state()
 
  #   if st.session_state.auth is None:
 #      auth_ui()
