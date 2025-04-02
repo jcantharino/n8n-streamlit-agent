@@ -72,13 +72,13 @@ def display_chat():
 
 def main():
     st.title("AI Chat Interface")
-  #  init_session_state()
+    init_session_state()
 
  #   if st.session_state.auth is None:
 #      auth_ui()
  #   else:
 #        st.sidebar.success(f"Logged in as {st.session_state.auth.user.email}")
- #       st.sidebar.info(f"Session ID: {st.session_state.session_id}")
+        st.sidebar.info(f"Session ID: {st.session_state.session_id}")
 
   #      if st.sidebar.button("Logout"):
    #         handle_logout()
