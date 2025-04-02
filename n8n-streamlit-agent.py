@@ -78,7 +78,7 @@ def main():
 #      auth_ui()
  #   else:
 #        st.sidebar.success(f"Logged in as {st.session_state.auth.user.email}")
-        st.sidebar.info(f"Session ID: {st.session_state.session_id}")
+     #   st.sidebar.info(f"Session ID: {st.session_state.session_id}")
 
   #      if st.sidebar.button("Logout"):
    #         handle_logout()
